@@ -43,10 +43,6 @@ button{
     font-size: 100px;
 }
 
-body{
-	background-color: black;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -61,7 +57,7 @@ body{
   text-align: center;
 }
 
-#joy{
+#happy{
 	background-color: Gold;
 }
 
@@ -84,9 +80,3 @@ body{
 #rand{
 	background:linear-gradient(to right, red 0, orange 33%, yellow 33%, green 66%, blue 66%, purple 100%);
 }
-
-
-
-
-
-
