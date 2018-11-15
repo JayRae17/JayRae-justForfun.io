@@ -1,0 +1,92 @@
+body{
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+	font-family: Helvetica;
+	color: white;
+}
+
+
+p{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+button:hover {
+	animation: bounce 1s;
+	border: 10px;
+}
+
+button{
+    font-family: Verdana;
+    font-size: 100px;
+}
+
+body{
+	background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid pink;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#joy{
+	background-color: Gold;
+}
+
+#sad{
+	background-color: DodgerBlue;
+}
+
+#anger{
+	background-color: Crimson;
+}
+
+#disgust{
+	background-color: SpringGreen;
+}
+
+#fear{
+	background-color: BlueViolet;
+}
+
+#rand{
+	background:linear-gradient(to right, red 0, orange 33%, yellow 33%, green 66%, blue 66%, purple 100%);
+}
+
+
+
+
+
+
