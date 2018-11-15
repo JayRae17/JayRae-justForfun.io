@@ -16,6 +16,11 @@ p{
 	text-align: center;
 }
 
+.pics{
+	text-align: center;
+}
+
+
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		-webkit-transform: translateY(0);
@@ -33,15 +38,86 @@ p{
 	}
 }
 
-button:hover {
-	animation: bounce 1s;
-	border: 10px;
+#but1{
+    font-family: Verdana;
+    font-size: 80px;
+    color: gold;
 }
 
-button{
-    font-family: Verdana;
-    font-size: 100px;
+#but1:hover {
+	animation: bounce 1s;
+	border: 10px;
+	color: white;
+	background-color: gold;
 }
+
+#but2{
+    font-family: Verdana;
+    font-size: 80px;
+    color: DodgerBlue;
+}
+
+#but2:hover {
+	animation: bounce 1s;
+	border: 10px;
+	background-color: DodgerBlue;
+	color: white;
+}
+
+#but3{
+    font-family: Verdana;
+    font-size: 80px;
+    color: Crimson;
+}
+
+#but3:hover {
+	animation: bounce 1s;
+	border: 10px;
+	background-color: Crimson;
+	color: white;
+}
+
+#but4{
+    font-family: Verdana;
+    font-size: 80px;
+    color: SpringGreen;
+}
+
+
+#but4:hover {
+	animation: bounce 1s;
+	border: 10px;
+	background-color: SpringGreen;
+	color: white;
+}
+
+#but5{
+    font-family: Verdana;
+    font-size: 80px;
+    color: BlueViolet;
+}
+
+#but5:hover {
+	animation: bounce 1s;
+	border: 10px;
+	background-color: BlueViolet;
+	color: white;
+}
+
+#but6{
+    font-family: Verdana;
+    font-size: 80px;
+    color: black;
+}
+
+#but6:hover {
+	animation: bounce 1s;
+	border: 10px;
+	
+}
+
+
+
 
 .grid-container {
   display: grid;
@@ -51,7 +127,7 @@ button{
 }
 
 .grid-item {
-  border: 1px solid pink;
+  border: 0px;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -80,3 +156,4 @@ button{
 #rand{
 	background:linear-gradient(to right, red 0, orange 33%, yellow 33%, green 66%, blue 66%, purple 100%);
 }
+
